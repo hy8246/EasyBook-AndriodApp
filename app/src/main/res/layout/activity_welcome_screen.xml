@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background = "#ffffff"
+    tools:context="edu.wit.mobileapp.easybook.WelcomeScreen">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:id="@+id/Welcome_screen_tittle"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logo"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:inputType="textEmailAddress"
+        android:id="@+id/user_email"
+        android:layout_below="@+id/Welcome_screen_tittle"
+        android:layout_alignStart="@+id/Welcome_screen_tittle"
+        android:layout_marginTop="47dp"
+        android:layout_alignEnd="@+id/Welcome_screen_tittle"
+        android:textColor="#000000"
+        android:background="@drawable/custom_edittext"
+        android:hint="E-mail"
+        android:paddingLeft="4dp"
+        android:textColorHint="#000000"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:inputType="textPassword"
+        android:layout_below="@id/user_email"
+        android:layout_marginTop="5dp"
+        android:id="@+id/user_password"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/user_email"
+        android:layout_alignEnd="@+id/user_email"
+        android:background="@drawable/custom_edittext"
+        android:paddingLeft="4dp"
+        android:textColor="#000000"
+        android:hint ="Password"
+        android:textColorHint="#000000"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="LOG IN"
+        android:layout_marginTop="50dp"
+        android:id="@+id/login_btn"
+        android:layout_below="@+id/user_password"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="REGISTER"
+        android:id="@+id/register_btn"
+        android:layout_below="@+id/login_btn"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

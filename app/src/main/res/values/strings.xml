@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Easy Book</string>
+    <string name="user_info">John Yu</string>
+    <string name="book_name"></string>
+    <string name="day_to_return"></string>
+    <string name="result_book_name"></string>
+    <string name="result_author_name"></string>
+    <string name="result_aviability"></string>
+</resources>

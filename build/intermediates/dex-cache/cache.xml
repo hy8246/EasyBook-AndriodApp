@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/haopan/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.0/c4ba5371a29ac9b2ad6129b1d39ea38750043eff/gson-2.8.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c4ba5371a29ac9b2ad6129b1d39ea38750043eff">
+        <dex dex="/Users/haopan/Desktop/EasyBook/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.8.0_2a7d89dc26ce691ea5454ed561f5243e044886a8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/haopan/Desktop/EasyBook/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="/Users/haopan/Desktop/EasyBook/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_89620ff95ed801c1ec03fba158de6cbccf2dcbd6/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/haopan/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.0/c4ba5371a29ac9b2ad6129b1d39ea38750043eff/gson-2.8.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c4ba5371a29ac9b2ad6129b1d39ea38750043eff">
+        <dex dex="/Users/haopan/Desktop/EasyBook/app/build/intermediates/pre-dexed/release/gson-2.8.0_2a7d89dc26ce691ea5454ed561f5243e044886a8.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/haopan/Desktop/EasyBook/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0c2320f90be88572b3354fb54255b03fc55210a7">
+        <dex dex="/Users/haopan/Desktop/EasyBook/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_4c5b1e2c36dc142552d93c87e6b6cea866fb63e8/classes.dex" />
+    </item>
+
+</items>

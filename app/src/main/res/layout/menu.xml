@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:weightSum="1">
+
+        <ImageView
+            android:id="@+id/logo1"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_weight="0.9"
+            android:src="@drawable/logo" />
+
+        <Button
+            android:id="@+id/logout_btn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/custom_btn"
+            android:text="Log Out"
+            android:textColor="#ffffff"
+
+            android:textSize="15dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:textSize="15dp"
+        android:textColor="#ffffff"
+        android:background="@drawable/custom_btn"
+        android:padding = "10dp"
+        android:text="Search"
+        android:layout_weight="1"
+        android:id="@+id/search_btn"
+       />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft= "10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        android:textSize="15dp"
+        android:textColor="#ffffff"
+        android:background="@drawable/custom_btn"
+        android:padding = "10dp"
+        android:id="@+id/rent_btn"
+        android:text="Rent"
+        />
+
+    </LinearLayout>
+
+
+<ListView
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id= "@+id/record_tb"
+    android:layout_marginBottom="20dp"
+    android:layout_marginTop="10dp"
+    android:background="#000000"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp">
+
+</ListView>
+
+</LinearLayout>
